@@ -1,0 +1,1 @@
+docker run -e AZP_URL="$AZP_URL" -e AZP_TOKEN="$AZP_TOKEN" -e AZP_POOL="$AZP_POOL" -e AZP_AGENT_NAME="$AZP_AGENT_NAME" --name "azp-agent-linux-1" azp-agent:1.0.0
